@@ -6,9 +6,9 @@
 
 import argparse
 
-from .libs.config import Config
-from .libs.parser import openvas_parser
-from .libs.export import exporters
+from openvasreporting.libs.config import Config
+from openvasreporting.libs.parser import openvas_parser
+from openvasreporting.libs.export import exporters
 
 
 def main():
